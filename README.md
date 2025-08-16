@@ -30,6 +30,8 @@
 
 项目将自动部署到 Vercel。
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fyour-repo-name)
+
 ## 推送到 GitHub
 
 1. 在 GitHub 上创建一个新的仓库
