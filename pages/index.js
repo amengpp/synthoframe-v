@@ -5,7 +5,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Synthoframe - High-Fidelity Prototyping Tool for the AI Era</title>
-        <meta name="description" content="Synthoframe is an innovative high-fidelity prototyping tool designed for the AI era, helping you bring your ideas to life quickly and efficiently." />
+        <meta name="description" content="Synthoframe is an innovative AI-powered prototyping tool that helps you quickly transform your ideas into beautiful, interactive interfaces. Create stunning designs from text descriptions or images in minutes." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,9 +15,37 @@ export default function Home() {
         </h1>
 
         <p className="description">
-          An innovative high-fidelity prototyping tool for the AI era
+          An innovative AI-powered prototyping tool for the AI era
         </p>
 
+        <div className="grid">
+          <a href="https://synthoframe.com/docs" className="card">
+            <h3>Text-to-Interface &rarr;</h3>
+            <p>Describe your ideas in words and let Synthoframe generate beautiful interfaces in minutes</p>
+          </a>
+
+          <a href="https://synthoframe.com/features" className="card">
+            <h3>Image-to-Interface &rarr;</h3>
+            <p>Upload your sketches or reference images and transform them into professional designs</p>
+          </a>
+
+          <a
+            href="https://synthoframe.com/contact"
+            className="card"
+          >
+            <h3>Interactive Prototypes &rarr;</h3>
+            <p>Create clickable, high-fidelity prototypes that bring your designs to life</p>
+          </a>
+
+          <a
+            href="https://synthoframe.com/pricing"
+            className="card"
+          >
+            <h3>Flexible Editing &rarr;</h3>
+            <p>Fine-tune every detail with our powerful editing tools or let AI optimize your designs</p>
+          </a>
+        </div>
+        
         <div className="grid">
           <a href="https://synthoframe.com/docs" className="card">
             <h3>Documentation &rarr;</h3>
