@@ -1,0 +1,16 @@
+{
+  "name": "synthoframe-showcase",
+  "version": "1.0.0",
+  "description": "展示软件产品 Synthoframe.com 的网站",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
