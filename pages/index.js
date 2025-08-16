@@ -4,45 +4,45 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Synthoframe - 专业软件解决方案</title>
-        <meta name="description" content="Synthoframe 是一个创新的软件平台，提供先进的解决方案" />
+        <title>Synthoframe - High-Fidelity Prototyping Tool for the AI Era</title>
+        <meta name="description" content="Synthoframe is an innovative high-fidelity prototyping tool designed for the AI era, helping you bring your ideas to life quickly and efficiently." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="main">
         <h1 className="title">
-          欢迎使用 <a href="https://synthoframe.com">Synthoframe!</a>
+          Welcome to <a href="https://synthoframe.com">Synthoframe!</a>
         </h1>
 
         <p className="description">
-          一个为未来而构建的创新软件平台
+          An innovative high-fidelity prototyping tool for the AI era
         </p>
 
         <div className="grid">
           <a href="https://synthoframe.com/docs" className="card">
-            <h3>文档 &rarr;</h3>
-            <p>查看我们的详细文档以开始使用</p>
+            <h3>Documentation &rarr;</h3>
+            <p>Check our detailed documentation to get started</p>
           </a>
 
           <a href="https://synthoframe.com/features" className="card">
-            <h3>功能 &rarr;</h3>
-            <p>了解 Synthoframe 提供的所有功能</p>
+            <h3>Features &rarr;</h3>
+            <p>Discover all the features Synthoframe offers</p>
           </a>
 
           <a
             href="https://synthoframe.com/contact"
             className="card"
           >
-            <h3>联系我们 &rarr;</h3>
-            <p>有任何问题？我们的团队随时为您服务</p>
+            <h3>Contact Us &rarr;</h3>
+            <p>Have questions? Our team is here to help</p>
           </a>
 
           <a
             href="https://synthoframe.com/pricing"
             className="card"
           >
-            <h3>定价 &rarr;</h3>
-            <p>查看我们的灵活定价方案</p>
+            <h3>Pricing &rarr;</h3>
+            <p>View our flexible pricing plans</p>
           </a>
         </div>
       </main>
