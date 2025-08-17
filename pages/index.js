@@ -162,7 +162,7 @@ const SynthoframePage = () => {
               </div>
               <div className="relative rounded-xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://design.gemcoder.com/staticResource/echoAiSystemImages/5ec8d6774b0b1871343a74b0a9a64459.png"
+                  src="/images/1.png"
                   alt="Synthoframe AI prototyping tool interface"
                   className="w-full h-auto object-cover"
                 />
@@ -295,7 +295,7 @@ const SynthoframePage = () => {
             <div className="mt-16 max-w-5xl mx-auto">
               <div className="rounded-xl overflow-hidden shadow-xl">
                 <img
-                  src="https://design.gemcoder.com/staticResource/echoAiSystemImages/dec4baf47ff606c9e4ac21f3db051316.png"
+                  src="/images/2.png"
                   alt="Synthoframe workflow process"
                   className="w-full h-auto object-cover"
                 />
