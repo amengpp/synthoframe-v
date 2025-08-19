@@ -157,7 +157,8 @@ const SynthoframePage = () => {
               <h1
                 className="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-6"
               >
-                Synthoframe - AI-powered Prototyping Tool for Designers and Developers
+                Welcome to
+                <span className="gradient-text"> Synthoframe! </span>
               </h1>
               <p
                 className="text-[clamp(1.1rem,2vw,1.3rem)] text-muted mb-10 max-w-2xl mx-auto"
