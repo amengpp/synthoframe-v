@@ -8,6 +8,26 @@ const SynthoframePage = () => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Synthoframe - AI-powered Prototyping Tool</title>
+        <meta name="description" content="Synthoframe is an AI-powered prototyping tool that helps designers and developers create stunning, interactive prototypes faster and easier than ever before." />
+        <meta name="keywords" content="Synthoframe, AI prototyping, design tool, interactive prototyping, UI design, UX design" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Synthoframe Team" />
+        <link rel="canonical" href="https://synthoframe.com/" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Synthoframe - AI-powered Prototyping Tool" />
+        <meta property="og:description" content="Synthoframe is an AI-powered prototyping tool that helps designers and developers create stunning, interactive prototypes faster and easier than ever before." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://synthoframe.com/" />
+        <meta property="og:image" content="/images/1.png" />
+        <meta property="og:image:alt" content="Synthoframe AI prototyping tool interface" />
+        
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Synthoframe - AI-powered Prototyping Tool" />
+        <meta name="twitter:description" content="Synthoframe is an AI-powered prototyping tool that helps designers and developers create stunning, interactive prototypes faster and easier than ever before." />
+        <meta name="twitter:image" content="/images/1.png" />
+        <meta name="twitter:image:alt" content="Synthoframe AI prototyping tool interface" />
       </Head>
       
       <Script 
@@ -137,8 +157,7 @@ const SynthoframePage = () => {
               <h1
                 className="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-6"
               >
-                Welcome to
-                <span className="gradient-text"> Synthoframe! </span>
+                Synthoframe - AI-powered Prototyping Tool for Designers and Developers
               </h1>
               <p
                 className="text-[clamp(1.1rem,2vw,1.3rem)] text-muted mb-10 max-w-2xl mx-auto"
@@ -165,6 +184,7 @@ const SynthoframePage = () => {
                   src="/images/1.png"
                   alt="Synthoframe AI prototyping tool interface"
                   className="w-full h-auto object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -298,6 +318,7 @@ const SynthoframePage = () => {
                   src="/images/2.png"
                   alt="Synthoframe workflow process"
                   className="w-full h-auto object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -355,6 +376,7 @@ const SynthoframePage = () => {
                       src="https://design.gemcoder.com/staticResource/echoAiSystemImages/c45e1c671500807817bb022c8f0c12de.png"
                       alt="Synthoframe documentation"
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -851,6 +873,32 @@ const SynthoframePage = () => {
           </div>
         </footer>
         
+        <Script id="structured-data" type="application/ld+json">
+          {
+            `{
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": "Synthoframe",
+              "description": "AI-powered prototyping tool for designers and developers",
+              "applicationCategory": "DesignApplication",
+              "operatingSystem": "Web",
+              "url": "https://synthoframe.com",
+              "image": ["/images/1.png", "/images/2.png"],
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "availability": "https://schema.org/InStock"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "ratingCount": "150"
+              }
+            }`
+          }
+        </Script>
+
         <Script strategy="afterInteractive">
           {
             `
